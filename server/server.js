@@ -9,10 +9,13 @@ app.use(cors());
 app.use(express.json())
 
 // deployment 
-app.use(express.static(path.join(__dirname,'/store/build' )));
+__dirname = path.resolve();
+const staticPath = path.join(__dirname, '..', 'store', 'build');
 
-app.get('*',(req, res)=>{
-    res.sendFile(path.join(__dirname+'/store/build/index.html'));
+app.use(express.static(staticPath));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(staticPath, 'index.html'));
 });
   
 
