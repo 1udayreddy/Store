@@ -6,7 +6,7 @@ const stripe = require("stripe")('sk_test_51MtsMbSE5cCrpebkiO4YspynnfGFw98IxQMmj
 
 const app = express();
 app.use(cors({
-  origin: 'https://ecommerce-store-backend-ibd5.onrender.com',
+  origin: 'http://localhost:5000',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   exposedHeaders: ['Content-Length', 'X-Foo', 'X-Bar'],
