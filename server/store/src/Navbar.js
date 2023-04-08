@@ -9,7 +9,7 @@ function NavbarComponent() {
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
   const checkout = async () => {
-    await fetch('http://localhost:4000/checkout', {
+    await fetch('http://localhost:5000/checkout', {
       method: "POST",
       headers: {
         "content-type": "application/json"
