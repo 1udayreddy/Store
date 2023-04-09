@@ -1,8 +1,9 @@
-https://raw.githubusercontent.com/1udayreddy/Store/main/ecommercecart.gif
 
 
 
 
+
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/1udayreddy/Store/main/ecommercecart.gif " width="400" height="400" />
 
 
 
