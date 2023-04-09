@@ -5,13 +5,6 @@ var cors = require('cors');
 const stripe = require("stripe")('sk_test_51MtsMbSE5cCrpebkiO4YspynnfGFw98IxQMmjcqUyLVsqLrd3YczxKxQQtTXRGfQ2b5AFryYKmXqX1mVNzP0A0oI00TmAm2kCZ')
 
 const app = express();
-app.use(cors({
-  origin: 'http://localhost:5000',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  exposedHeaders: ['Content-Length', 'X-Foo', 'X-Bar'],
-  credentials: true
-}));
 app.use(express.json())
 
 // deployment 
