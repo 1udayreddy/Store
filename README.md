@@ -3,7 +3,7 @@
 
 
 
-<img align="center" alt="GIF" src="https://raw.githubusercontent.com/1udayreddy/Store/main/ecommercecart.gif " width="800" height="800" />
+<img align="center" alt="GIF" src="https://raw.githubusercontent.com/1udayreddy/Store/main/ecommercecart.gif " width="800" height="500" />
 
 
 
